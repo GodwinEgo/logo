@@ -19,5 +19,6 @@ from reviews import views
 
 urlpatterns = [
     path('review/', views.review_logo, name='review_logo'),
+    path('', views.home, name='home'),
     path('reviews/', views.review_list, name='review_list'),
 ]

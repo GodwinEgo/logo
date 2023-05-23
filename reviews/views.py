@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .forms import ReviewForm
+from .models import Review
 
 
 def review_logo(request):
@@ -11,6 +12,10 @@ def review_logo(request):
     else:
         form = ReviewForm()
     return render(request, 'reviews/review_logo.html', {'form': form})
+
+
+def home(request):
+    return render(request, 'reviews/home.html')
 
 
 def review_list(request):
