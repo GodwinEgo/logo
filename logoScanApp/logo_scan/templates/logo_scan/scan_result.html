@@ -1,0 +1,4 @@
+<h2>Scan Result</h2>
+<img src="{{ logo.image.url }}" alt="{{ logo.name }}" width="200"><br>
+<p>Name: {{ logo.name }}</p>
+<a href="{% url 'add_review' logo.id %}">Add a review</a>

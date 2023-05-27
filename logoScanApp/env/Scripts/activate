@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ONYIDE\Desktop\Ego\Godwin_Ego\Workspace\logo\env"
+VIRTUAL_ENV="C:\Users\ONYIDE\Desktop\Ego\Godwin_Ego\Workspace\logo\logoScanApp\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
